@@ -18,6 +18,11 @@ const routes = [
     component: Profile,
   },
   {
+    path: '/uni',
+    name: 'uni',
+    component: () => import('../views/Uni_Dir.vue')
+  },
+  {
     path: '/vuz',
     name: 'Vuz',
     component: Vuz,
