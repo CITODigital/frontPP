@@ -16,6 +16,11 @@ const routes = [
     name: 'Profile',
     component: Profile,
   },
+  {
+    path: '/uni',
+    name: 'uni',
+    component: () => import('../views/Uni_Dir.vue')
+  }
 ];
 
 const router = new VueRouter({
