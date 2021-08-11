@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Landing from '../views/Landing.vue';
 import Profile from '../views/Profile.vue';
+import Vuz from '../views/Vuz.vue';
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/profile',
     name: 'Profile',
     component: Profile,
+  },
+  {
+    path: '/vuz',
+    name: 'Vuz',
+    component: Vuz,
   },
 ];
 
