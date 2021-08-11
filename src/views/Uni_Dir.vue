@@ -98,6 +98,8 @@ a {
 .search input {
     width: 75%;
     height: 50px;
+    background: url('/img/loupe.svg') no-repeat right;
+    background-position-x: calc(100% - 4%);
 }
 .compareBox {
     display: grid;
