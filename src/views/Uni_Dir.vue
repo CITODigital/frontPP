@@ -218,17 +218,17 @@ hr {
     display: grid;
 }
 .like {
-    background: url('../assets/like.svg') 50% 50% no-repeat;
+    background: url('/img/like.svg') 50% 50% no-repeat;
     width: 28px;
     height: 22px;
     border: none;
     cursor: pointer;
   }
   .liked {
-    background: url('../assets/liked.svg') 50% 50% no-repeat;
+    background: url('/img/liked.svg') 50% 50% no-repeat;
   }
   .compare {
-    background: url('../assets/compare.svg') 50% 50% no-repeat;
+    background: url('/img/compare.svg') 50% 50% no-repeat;
     background-size: contain;
     width: 28px;
     height: 22px;
